@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ccedff !important;
+}
+
+nav {
+    background-color: #99ffcc !important;
+    font-family: 'Kanit', sans-serif;
+    color: #00111a;
+    font-weight: 300;
+}
+
+header {
+    background-color: white;
+    background-image: url(bg1.jpg);
+    background-size: cover;
+    color: white;
+    padding: 3em;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+header h1:hover,
+header h3:hover {
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    transition: 0.3s;
+}
+
+.dropdown-menu {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.nav-item:hover .dropdown-menu {
+    opacity: 1;
+}
+
+header h1,
+header h3 {
+    margin: 0;
+    color: #00bfff;
+}
+
+#pfp {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 1em;
+    margin-left: 1em;
+    border: 1px solid salmon;
+    transition: transform 0.3s ease-in-out;
+}
+
+#pfp:hover {
+    transform: scale(0.9);
+    border: 2px solid blue;
+}
+
+
+header div {
+    flex-grow: 1;
+    padding-right: 1em;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto Slab', serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+section:hover {
+    background-color: #007BFF;
+
+    color: #fff;
+
+}
+
+.feedback:hover,
+.contact:hover {
+    background-color: #b3e6ff;
+  
+    color: #000;
+
+    transition: background-color 0.3s, color 0.3s;
+
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.about {
+    background-color: #f9f9f9;
+}
+
+.contact a {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.feedback {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.form-floating {
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
